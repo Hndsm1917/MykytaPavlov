@@ -1,0 +1,30 @@
+.section {
+  // wrapper
+  &__h1 {
+    padding-bottom: em(24);
+  }
+  &__h2 {
+    padding-bottom: em(48);
+  }
+  &__subtitle {
+  }
+  &__text {
+  }
+  //    typography
+  &__font {
+    &--h1 {
+      @include pld-90-700;
+      color: $accent-color;
+    }
+    &--h2 {
+      @include pld-48-700;
+      color: $accent-color;
+    }
+    &--subtitle {
+      @include rbc-32-400;
+    }
+    &--text {
+      @include rb-20-400;
+    }
+  }
+}

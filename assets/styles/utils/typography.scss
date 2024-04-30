@@ -1,0 +1,82 @@
+// Roboto Light
+@mixin rb-16-300() {
+  font-size: em(16);
+  font-weight: 300;
+  line-height: 140%;
+}
+// Roboto Regular
+@mixin rb-12-400() {
+  font-size: em(12);
+  font-weight: 400;
+  line-height: 140%;
+}
+@mixin rb-16-400() {
+  font-size: em(16);
+  font-weight: 400;
+  line-height: 140%;
+}
+@mixin rb-20-400() {
+  font-size: em(20);
+  font-weight: 400;
+  line-height: 140%;
+}
+@mixin rb-32-400() {
+  font-size: em(32);
+  font-weight: 400;
+  line-height: 140%;
+}
+// Roboto Medium
+@mixin rb-16-500() {
+  font-size: em(16);
+  font-weight: 500;
+  line-height: 140%;
+}
+// Roboto Bold
+@mixin rb-20-700() {
+  font-size: em(20);
+  font-weight: 700;
+  line-height: 140%;
+}
+@mixin rb-12-700() {
+  font-size: em(12);
+  font-weight: 700;
+  line-height: 140%;
+}
+// Roboto Condensed
+@mixin rbc-20-400() {
+  font-family: $ff-Roboto-Condensed;
+  font-size: em(20);
+  font-weight: 400;
+  line-height: 140%;
+}
+@mixin rbc-32-400() {
+  font-family: $ff-Roboto-Condensed;
+  font-size: em(32);
+  font-weight: 400;
+  line-height: 140%;
+}
+@mixin rbc-20-500() {
+  font-family: $ff-Roboto-Condensed;
+  font-size: em(20);
+  font-weight: 500;
+  line-height: 140%;
+}
+//Playfair Display
+@mixin pld-24-700() {
+  font-family: $ff-Playfair;
+  font-size: em(24);
+  font-weight: 700;
+  line-height: 110%;
+}
+@mixin pld-48-700() {
+  font-family: $ff-Playfair;
+  font-size: em(48);
+  font-weight: 700;
+  line-height: 110%;
+}
+@mixin pld-90-700() {
+  font-family: $ff-Playfair;
+  font-size: em(90);
+  font-weight: 700;
+  line-height: 110%;
+}

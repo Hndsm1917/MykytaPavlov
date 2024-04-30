@@ -1,0 +1,32 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+
+  // content height fix
+  height: -webkit-fill-available;
+}
+
+body {
+  font-family: $ff-Roboto;
+  font-size: #{$font-size-default}px;
+  background: $bg-color;
+  color: $text-white;
+
+  overflow: hidden;
+  overflow-y: scroll;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+.container {
+  max-width: em($container-max-width);
+  margin: 0 auto;
+  padding: 0 em(10);
+}
+
+.noscroll {
+  overflow-y: hidden;
+}

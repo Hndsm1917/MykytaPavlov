@@ -1,0 +1,5 @@
+@mixin mobile() {
+  @at-root .js-is-mobile & {
+    @content;
+  }
+}

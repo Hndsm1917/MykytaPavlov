@@ -1,0 +1,19 @@
+.btn {
+  background-color: $accent-color;
+  border-radius: em(12);
+
+  &--secondary {
+    background-color: $secondary-color;
+  }
+
+  &--disabled {
+    opacity: 0.25;
+  }
+
+  &__text {
+    @include rbc-20-500;
+    &--dark {
+      color: $text-black;
+    }
+  }
+}
