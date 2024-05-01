@@ -21,6 +21,7 @@
       "@nuxt/eslint-config/flat": [
         "./packages/eslint-config/src/flat.ts"
       ],
+      "@/*": ["./*"]
     }
   },
   "exclude": [

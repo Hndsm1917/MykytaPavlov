@@ -7,14 +7,8 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
-      title: '',
-      script: [
-
-      ],
+      script: [],
       viewport: 'width=device-width, initial-scale=1',
-      htmlAttrs: {
-        lang: 'default',
-      },
       link: [
         // {
         //   rel: 'preconnect',
@@ -25,30 +19,30 @@ export default defineNuxtConfig({
         //   href: 'https://fonts.gstatic.com',
         // },
         //
-        // {
-        //   rel: 'apple-touch-icon',
-        //   sizes: '72x72',
-        //   href: '/favicon/apple-touch-icon.png',
-        // },
-        // {
-        //   rel: 'icon',
-        //   type: 'image/png',
-        //   sizes: '32x32',
-        //   href: '/favicon/favicon-32x32.png',
-        // },
-        // {
-        //   rel: 'icon',
-        //   type: 'image/png',
-        //   sizes: '16x16',
-        //   href: '/favicon/favicon-16x16.png',
-        // },
-        // { rel: 'manifest', href: '/favicon/site.webmanifest' },
-        // {
-        //   rel: 'mask-icon',
-        //   href: '/favicon/safari-pinned-tab.svg',
-        //   color: '#141627',
-        // },
-        // { rel: 'shortcut icon', href: '/favicon/favicon.ico' },
+        {
+          rel: 'apple-touch-icon',
+          sizes: '72x72',
+          href: '/favicon/apple-touch-icon.png',
+        },
+        {
+          rel: 'icon',
+          type: 'image/png',
+          sizes: '32x32',
+          href: '/favicon/favicon-32x32.png',
+        },
+        {
+          rel: 'icon',
+          type: 'image/png',
+          sizes: '16x16',
+          href: '/favicon/favicon-16x16.png',
+        },
+        { rel: 'manifest', href: '/favicon/site.webmanifest' },
+        {
+          rel: 'mask-icon',
+          href: '/favicon/safari-pinned-tab.svg',
+          color: '#141627',
+        },
+        { rel: 'shortcut icon', href: '/favicon/favicon.ico' },
         // {
         //   rel: 'canonical',
         //   href: '',
